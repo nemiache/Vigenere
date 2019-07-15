@@ -1,2 +1,2 @@
 # Vigenere
-cryptanalysis of the Vigenère encryption
+Cryptanalyse du chiffre de Vigenere
