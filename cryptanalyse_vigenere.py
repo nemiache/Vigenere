@@ -1,8 +1,4 @@
-# Sorbonne Université 3I024 2018-2019
-# TME 2 : Cryptanalyse du chiffre de Vigenere
-#
-# Etudiant.e 1 : CHELGHOUM 3704704
-# Etudiant.e 2 : NOM ET NUMERO D'ETUDIANT
+# Cryptanalyse du chiffre de Vigenere
 
 import sys, getopt, string, math
 from math import sqrt
@@ -312,11 +308,6 @@ def cryptanalyse_v3(cipher):
     text = dechiffre_vigenere(cipher,key)
     return text
 
-
-################################################################
-# NE PAS MODIFIER LES FONCTIONS SUIVANTES
-# ELLES SONT UTILES POUR LES TEST D'EVALUATION
-################################################################
 
 
 # Lit un fichier et renvoie la chaine de caracteres
